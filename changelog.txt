@@ -1,0 +1,70 @@
+13 June 2013 - v1.6
+    * style.css - updated version number
+    * includes/meta/meta-post.php - updated formatting for accent control
+    * includes/widgets/widget-twitter.php - updated compatibility with twitter api v1.1
+
+10 June 2013 - v1.5
+    * style.css - updated version number
+    * functions.php - Added filter for search page for load more pagination
+    * assets/js/jquery.custom.js - Pass category and search query arguments
+    * search.php - added condition for load more and normal pagination
+
+7 June 2013 - v1.4
+    * style.css - updated version number
+    * template-contact.php - fixed background display
+    * includes/meta/meta-post.php - fixed an issue with pattern
+    * includes/meta/meta-page.php - fixed an issue with pattern
+
+29 May 2013 - v1.3
+    * style.css - updated version number
+    * includes/meta/meta-page.php - fixes an issue where post color/background won't appear for any 
+      page other than published status
+    * includes/meta/meta-post.php - fixes an issue where post color/background won't appear for any
+      post other than published status
+
+25 April 2013 - v1.2
+
+    *** Update Files ***
+    * content-aside.php
+    * content-audio.php
+    * content-chat.php
+    * content-gallery.php
+    * content-image.php
+    * content-link.php
+    * content-quote.php
+    * content-video.php
+    * content.php
+
+3 April 2013 - v1.1.1
+
+    Fixes some issues with SoundCloud Player
+
+    *** Updated Files ****
+    * style.css - updated version number, remove height auto for iframe
+    * content-audio.php - added htmlspecialchars_decode() for embed code for decoding HTML tags
+
+2 April 2013 - v1.1
+
+    * New Background Pattern Support for posts and pages
+    * New Prev/Next Pagination Options
+    * Audio embed, support for shortcodes too
+
+    * Update framework v1.0.2.1
+
+    *** Updated Files ***
+    * style.css - updated version number
+    * footer.php - added stripcslashes() for removing slashes
+    * content-image.php/content.php - Post thumbnail linked to post
+    * includes/meta/meta-post.php - Added new meta box for custom background pattern and audio embed
+    * includes/meta/meta-page.php - Added new meta box for custom background pattern
+    * includes/options/general-settings.php - Pagination field
+    * index.php - Pagination condition added
+    * archive.php - Pagination condition added
+    * content-audio.php - Support for embedding audio players
+    * content-background.php - Support for background patterns
+    * single.php - support for showing related posts
+
+
+19 March 2013 - v1.0
+
+    Initial Release

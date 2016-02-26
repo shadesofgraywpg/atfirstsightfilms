@@ -1,0 +1,952 @@
+/* ==========================================================================
+   HTML5 Boilerplate styles - h5bp.com (generated via initializr.com)
+   ========================================================================== */
+
+html,
+button,
+input,
+select,
+textarea {}
+
+body {font-size: 1em; line-height: 1.4; color: white; background: black;}
+::-moz-selection {background: #b3d4fc; text-shadow: none;}
+::selection { background: #b3d4fc; text-shadow: none;}
+
+	/*
+   	FONT Family References
+   	Museo Sans
+   	500 Normal
+   		font-family: "museo-sans",sans-serif; font-style: normal;font-weight: 500;
+   	300 Italic
+   		font-family: "museo-sans",sans-serif; font-style: italic; font-weight: 300;
+   	Adelle
+   	400 Regular
+   		font-family: "adelle",serif; font-style: normal; font-weight: 400;
+   	*/
+
+p {font-family: 'Vollkorn', serif; font-style: italic; font-weight: 200; font-size: 1em; line-height: 1.6em;}
+h1, h2, h3, h4, h5 {font-family: "proxima-nova",sans-serif; font-weight: 600;}
+h1 {font-style: normal; font-weight: 500; text-transform: uppercase; font-size: 1.7em;}
+
+.main {position: relative; z-index: 10;}
+
+header {
+	font-family: "proxima-nova",sans-serif; font-weight: 600;
+	position: fixed; bottom: 0%; margin: 0; padding: 0; height: 60px; z-index: 20; 
+	background: rgba(255,255,255,100); 
+	color: black; 
+	width: 100%;
+	-webkit-box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+	-moz-box-shadow: 0 0 15px rgba(0,0,0,0.1);
+	-ms-box-shadow: 0 0 15px rgba(0,0,0,0.1);
+	-o-box-shadow: 0 0 15px rgba(0,0,0,0.1);
+	box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+	border-top: 1px solid white;
+}
+header nav {padding: 0; margin: 0;}
+header nav a {line-height: 60px; height: 60px; padding: 0; margin: 0; -moz-transition: all 100ms ease-in; -webkit-transition: all 60ms ease-in;-o-transition: all 60ms ease-out;-ms-transition: all 60ms ease-out; transition: all 60ms ease-out;}
+
+header nav a:hover {color: black; -moz-transition: all 50ms ease-in; -webkit-transition: all 50ms ease-in;-o-transition: all 50ms ease-in;-ms-transition: all 50ms ease-in; transition: all 50ms ease-in; background: #f9f9f9;}
+
+
+header a#logo {text-align: center; width: 30%; position: absolute; bottom: -35%; left: 35%; z-index: 15;}
+	header a#logo img {padding-top: 2%;}
+	
+header nav ul {}
+header nav li {}
+
+header nav ul#set1 {width: 33%; float: left; margin-left: 0.2%;}
+	header nav ul#set1 li {float: left; width: 49%;}
+
+header nav ul#set2 {width: 33%; float: right;}
+	header nav ul#set2 li {width: 49%; float: left;}
+
+#colorbar {background: #5b4b43 url(http://atfirstsightfilms.com/wp-content/themes/AtFirstSight/images/top-bar.gif) repeat-y; height: 6px; z-index: 15; position: fixed; top: 0; width: 100%;}
+
+nav ul {margin: 0; padding: 0;}
+nav ul li {}
+header nav ul li a {display: block; text-align: center; text-decoration: none; font-size: 0.92em; font-weight: 400; font-style: normal; text-transform: uppercase; color: #8a8a8a;}
+
+hr {}
+img {}
+fieldset {}
+textarea {}
+.chromeframe {margin: 0.2em 0; padding: 0.2em 0;}
+
+
+/* ===== Initializr Styles ==================================================
+   Author: Jonathan Verrecchia - verekia.com/initializr/responsive-template
+   ========================================================================== */
+
+body {}
+.wrapper {}
+
+/* ===================
+    ALL: Orange Theme
+   =================== */
+
+.header-container {}
+.footer-container, .main aside {}
+.header-container,
+.footer-container, .main aside {}
+.title {}
+
+
+/* ==============
+    MOBILE: Menu
+   ============== */
+
+
+
+/* ==============
+    MOBILE: Main
+   ============== */
+
+.main {}
+.main article h1 {font-size: 2em;}
+.main aside {}
+.footer-container footer {}
+
+/* ===============
+    ALL: IE Fixes
+   =============== */
+
+   .ie7 .title {padding-top: 20px;}
+
+/* ==========================================================================
+   Author's custom styles
+   ========================================================================== */
+
+
+   img.typekit-badge {display: none!important;}
+       
+       
+   /* ========== HOME ========== */
+   /* blur -webkit-filter: blur(2px); filter: blur(2px); */
+   
+      /*background: rgba(22,168,149,0.75); padding: 40px 40px 25px 40px; border: none;*/
+   
+
+   #home {padding: 40px 40px 25px 40px; width: 35%; margin-left: 8%; position: fixed; bottom: 20%; 
+	/*
+	background: url(http://atfirstsightfilms.com/wp-content/themes/AtFirstSight/images/ie_mask.png);
+	background: rgba(0, 0, 0, 0.35);
+	background: rgba(238,115,54,0.95);
+	*/
+	/*background: rgba(55,55,55,0.6);*/
+	/*
+	border: 1px solid rgba(255, 255, 255, 0.3);
+	-webkit-box-shadow: inset 0 0 2px rgba(0, 0, 0, 0.3);
+	-moz-box-shadow: inset 0 0 2px rgba(0,0,0,0.3);
+	-ms-box-shadow: inset 0 0 2px rgba(0,0,0,0.3);
+	-o-box-shadow: inset 0 0 2px rgba(0,0,0,0.3);
+	box-shadow: inset 0 0 2px rgba(0, 0, 0, 0.3);
+	*/
+	-webkit-text-shadow: 0 2px 0 rgba(0,0,0,0.2);
+	-moz-text-shadow: 0 2px 0 rgba(0,0,0,0.2);
+	-ms-text-shadow: 0 2px 0 rgba(0,0,0,0.2);
+	-o-text-shadow: 0 2px 0 rgba(0,0,0,0.2);
+	text-shadow: 0 2px 0 rgba(0, 0, 0, 0.2);
+   }
+   #home h1 {padding: 0; margin: 0; width: 100%; display: inline-block; font-size: 32px; font-weight: 700; line-height: 50px; text-transform: uppercase;}
+   #home p {padding: 0; margin: 0; padding-top: 2%; margin-right: 5%; padding-bottom: 6%; margin-bottom: 4%; background: url(http://atfirstsightfilms.com/wp-content/themes/AtFirstSight/images/divide.png) left bottom repeat-x;}
+   
+   
+    /* ========== ABOUT ========== */
+    
+    
+    
+    
+    
+    
+    /* ========== BLOG ========== */
+    
+    #blog {padding: 60px 60px 85px 60px;
+    width: 60%; margin-left: auto; margin-right: auto;
+	/*
+	background: url(http://atfirstsightfilms.com/wp-content/themes/AtFirstSight/images/ie_mask.png);
+	background: rgba(0, 0, 0, 0.35);
+	background: rgba(238,115,54,0.95);
+	*/
+	background: rgba(0,0,0,0.17);
+	color: white;
+	/*
+	border: 1px solid rgba(255, 255, 255, 0.3);
+	-webkit-box-shadow: inset 0 0 2px rgba(0, 0, 0, 0.3);
+	-moz-box-shadow: inset 0 0 2px rgba(0,0,0,0.3);
+	-ms-box-shadow: inset 0 0 2px rgba(0,0,0,0.3);
+	-o-box-shadow: inset 0 0 2px rgba(0,0,0,0.3);
+	box-shadow: inset 0 0 2px rgba(0, 0, 0, 0.3);
+	*/
+	-webkit-text-shadow:0 2px 0 rgba(0,0,0,0.15);
+	-moz-text-shadow: 0 2px 0 rgba(0,0,0,0.15);
+	-ms-text-shadow:0 2px 0 rgba(0,0,0,0.15);
+	-o-text-shadow: 0 2px 0 rgba(0,0,0,0.15);
+	text-shadow: 0 2px 0 rgba(0,0,0,0.15);
+   }
+   #blog h1 {padding: 0; margin: 0; width: 100%; display: inline-block; font-size: 45px; font-weight: 700; line-height: 60px; text-transform: none; text-transform: uppercase;}
+   #blog h2 {display: inline-block; font-size: 35px; font-weight: 700; line-height: 50px; text-transform: uppercase; padding: 0; margin: 0;}
+   #blog h2 a {color: white; text-decoration: none;}
+   
+   #blog h3 {margin: 0; padding: 0; font-size: 16px; font-weight: 700; line-height: 50px; background: rgba(235,177,31,0.85); text-transform: uppercase; padding-left: 3%; padding-top: 1.7%; padding-bottom: 1.2%; margin-left: -12%; margin-top: 1.5%; margin-bottom: 1.5%;
+	-webkit-box-shadow: 0 0 2px rgba(0, 0, 0, 0.2);
+	-moz-box-shadow: 0 0 2px rgba(0,0,0,0.2);
+	-ms-box-shadow: 0 0 2px rgba(0,0,0,0.2);
+	-o-box-shadow: 0 0 2px rgba(0,0,0,0.2);
+	box-shadow: 0px 0px 2px rgba(0, 0, 0, 0.2);
+   }
+   
+   #blog h4 {margin: 0; padding: 0; font-size: 20px; font-weight: 700; line-height: 40px;}
+   #blog h5 {margin: 0; padding: 0; font-size: 15px; font-weight: 700; line-height: 30px;}
+   
+   #blog p {padding: 0; margin: 0; padding-top: 1.5%; padding-bottom: 1.5%; /*font-family: "proxima-nova",sans-serif; font-weight: 300; font-style: normal;*/ font-style: normal;}
+   #blog p a {font-weight: bold; font-style: italic; color: white; text-decoration: none;}
+   #blog p a:hover {text-decoration: underline;}
+   #blog p.bwrartcinfo1 {padding: 0; margin: 0; text-transform: uppercase; font-style: normal; font-family: "proxima-nova",sans-serif; font-weight: 600; line-height: 2.5em;}
+   
+   #blog img {overflow: hidden;}
+   
+   #blog .column1left {width: 30%; float: left;}
+   #blog .column1right {width: 67%; float: right;}
+   #blog .column2 {width: 45%; padding-right: 4%; float: left;}
+   #blog .column3 {width: 28%; padding-right: 5%; float: left;}
+   
+   #blog .column4left {width: 30%; float: left; font-size: 1.55em;}
+   #blog .column4right {width: 67%; float: right;}
+   
+   #blog address {font-size: 1.5em; font-style: normal;}
+   
+   #blog .videocontainer {padding-top: 1.5%; padding-bottom: 1.5%;}
+   
+   
+   
+   #blog .page_navi a {color: #ffffff!important;}
+
+		#blog ul, menu, dir {
+		display: block;
+		list-style-type: disc;
+		-webkit-margin-before: 1em;
+		-webkit-margin-after: 1em;
+		-webkit-margin-start: 0px;
+		-webkit-margin-end: 0px;
+		-webkit-padding-start: 40px;
+		}
+		
+		#blog .page_navi li {
+		line-height: 0%;
+		display: inline;
+		padding: 0;
+		margin: 0;
+		font-size: 11px;
+		}
+		
+		#blog .page_navi ul {padding: 0; margin: 0; margin-top: 2%; margin-bottom: 2%;}
+		
+		#blog .page_navi span.current {
+		background: #252525; border-radius:66px; color: #ffffff!important;
+		}
+		
+		#blog .page_navi a, .page_navi a:visited, .page_navi span.current, .page_navi span.pages, .page_navi span.extend, .page_navi span.current, .page_navi span.dots {
+		color: #535353;
+		width: 30px;
+		height: 28px;
+		padding: 2px 0 0px 0;
+		margin: 5px 1px 0 0;
+		display: block;
+		float: left;
+		text-align: center;
+		line-height: 30px;
+		background: #3f3f3f;
+		border-radius:66px;
+		text-decoration: none;
+		}
+		
+		#blog .page_navi a:hover {color:white!important;text-decoration:none;background:#535353;}
+   
+
+
+
+
+
+
+
+.instagram_feed {
+  overflow: hidden;
+  position: relative;
+}
+.instagram_feed ul {
+  *zoom: 1;
+  list-style: none;
+  margin: 0; padding: 0;
+}
+.instagram_feed ul:before,
+.instagram_feed ul:after {
+  display: table;
+  content: "";
+}
+.instagram_feed ul:after {
+  clear: both;
+}
+.instagram_feed ul li {
+  background-color: transparent;
+  background-repeat: no-repeat;
+  background-position: center top;
+  float: left;
+  margin: 0px 0;
+  padding: 0;
+  overflow: hidden;
+  position: relative;
+}
+.instagram_feed ul li > img {
+  display: block;
+  position: absolute;
+  left: 0;
+  top: 0;
+}
+.instagram_feed ul li > img:first-child {
+  z-index: 3;
+}
+.instagram_feed ul li > a {
+  background: rgba(235, 177, 31, 0.85);
+  color: #fff;
+  left: 0;
+  top: -600px;
+  z-index: 1;
+  position: absolute;
+  text-decoration: none;
+}
+.instagram_feed ul li > a .info h3 {
+	color: #fff;
+	font-weight: normal;
+
+	text-align: center;
+	font-family: 'Vollkorn', serif; 
+	font-style: italic;
+	font-size: 0.9em;
+	font-weight: 600;
+	line-height: 1;
+}
+.instagram_feed ul li > a .info i {
+  display: block;
+  margin: 0 auto;
+  width: 102px;
+}
+.instagram_feed ul li > a .info i img {
+  display: block;
+}
+.instagram_feed ul li > a .info p {
+	color: #fff;
+	line-height: 1.2;
+	margin: 0px auto;
+	padding: 46% 6% 6% 6%;
+	vertical-align: middle;
+	width: 84%;
+	text-align: center;
+	text-transform: uppercase;
+	font-size: 0.82em;
+	font-style: normal;
+	font-weight: 600;
+	font-family: "proxima-nova",sans-serif;
+	-webkit-text-shadow:0 2px 0 rgba(0,0,0,0.15);
+	-moz-text-shadow: 0 2px 0 rgba(0,0,0,0.15);
+	-ms-text-shadow:0 2px 0 rgba(0,0,0,0.15);
+	-o-text-shadow: 0 2px 0 rgba(0,0,0,0.15);
+	text-shadow: 0 2px 0 rgba(0,0,0,0.15);
+}
+@media (max-width: 640px) {
+  .instagram_feed ul li {
+    width: 10%;
+  }
+}
+@media (min-width: 641px) and (max-width: 960px) {
+  .instagram_feed ul li {
+    width: 20%;
+  }
+}
+@media (min-width: 961px) and (max-width: 1050px) {
+  .instagram_feed ul li {
+    width: 20%;
+  }
+}
+@media (min-width: 1050px) and (max-width: 1400px) {
+  .instagram_feed ul li {
+    width: 16.66%;
+  }
+}
+@media (min-width: 1401px) and (max-width: 1720px) {
+  .instagram_feed ul li {
+    width: 10%;
+  }
+}
+@media (min-width: 1721px) and (max-width: 2040px) {
+  .instagram_feed ul li {
+    width: 5%;
+  }
+}
+@media (min-width: 2041px) and (max-width: 2360px) {
+  .instagram_feed ul li {
+    width: 5%;
+  }
+}
+@media (min-width: 2361px) and (max-width: 2680px) {
+  .instagram_feed ul li {
+    width: 11.11%;
+  }
+}
+@media (max-width: 767px) {
+  .instagram_feed {
+    display: none;
+  }
+}
+
+
+
+
+
+   
+    
+    
+    /* ========== CONTACT ========== */
+    
+    #contact {position: relative; top: 0; margin: 0; padding: 0; z-index: 0!important; padding: 40px 40px 40px 40px;
+	    background: rgba(55,55,55,0.4);
+	    -webkit-text-shadow: 0 2px 0 rgba(0,0,0,0.2);
+		-moz-text-shadow: 0 2px 0 rgba(0,0,0,0.2);
+		-ms-text-shadow: 0 2px 0 rgba(0,0,0,0.2);
+		-o-text-shadow: 0 2px 0 rgba(0,0,0,0.2);
+		text-shadow: 0 2px 0 rgba(0, 0, 0, 0.2);
+    }
+    
+    #contact .form-field {}
+    #contact #frm_field_80_container {width: 25%; float: left; margin-right: 1%!important;}
+    #contact #frm_field_82_container {width: 25%; float: left;}
+    #contact #frm_field_93_container {width: 25%; float: left; margin-right: 1%!important;}
+    #contact #frm_field_88_container {width: 25%; float: left;}
+    #contact #frm_field_84_container {width: 25%; float: left; margin-right: 1%!important;}
+    #contact #frm_field_85_container {width: 25%; float: left;}
+    #contact p.submit {margin-top: 2%;}
+    
+    #contact p {padding: 0; margin: 0;}
+    #contact fieldset {border: none; margin: 0; padding: 0;}
+    #contact .frm_required {color: rgba(255,255,255,0.6);}
+    #contact label {
+    	font-family: "proxima-nova",sans-serif; font-weight: 600;
+    	-webkit-text-shadow: 0 2px 0 rgba(0,0,0,0.2);
+		-moz-text-shadow: 0 2px 0 rgba(0,0,0,0.2);
+		-ms-text-shadow: 0 2px 0 rgba(0,0,0,0.2);
+		-o-text-shadow: 0 2px 0 rgba(0,0,0,0.2);
+		text-shadow: 0 2px 0 rgba(0, 0, 0, 0.2);
+		display: block; font-size: 0.85em; padding-top: 0.9%; padding-bottom: 0.3%;
+		text-transform: uppercase;
+		}
+    #contact input {
+	    margin: 0;
+		padding: 0;
+		width: 90%;
+		height: 28px;
+		vertical-align: middle;
+		border: 4px solid #CBCBCB;
+		font-size: 0.8em;
+		color: #666666;
+		padding: 0 0px 0 10px;
+		-webkit-transition: border 0.15s linear;
+		-moz-transition: border 0.15s linear;
+		-o-transition: border 0.15s linear;
+		transition: border 0.15s linear;
+		font-family: 'Vollkorn', serif; font-style: italic;
+    }
+    #contact textarea {
+	    margin: 0;
+		padding: 0;
+		width: 90%;
+		border: 4px solid #CBCBCB;
+		font-size: 0.8em;
+		color: #666666;
+		font-family: 'Vollkorn', serif; font-style: italic;
+		padding: 10px 0px 0 10px;
+		-webkit-transition: border 0.15s linear;
+		-moz-transition: border 0.15s linear;
+		-o-transition: border 0.15s linear;
+		transition: border 0.15s linear;
+    }
+
+	#contact input[type="submit"] {    
+	    display: block;
+		width: 49.9%;
+		height: 36px;
+		border: 4px solid #15a994;
+		text-transform: uppercase;
+		color: white;
+		background: #15a994;
+		font-family: "proxima-nova",sans-serif; font-weight: 600;
+    	-webkit-text-shadow: 0 2px 0 rgba(0,0,0,0.2);
+		-moz-text-shadow: 0 2px 0 rgba(0,0,0,0.2);
+		-ms-text-shadow: 0 2px 0 rgba(0,0,0,0.2);
+		-o-text-shadow: 0 2px 0 rgba(0,0,0,0.2);
+		text-shadow: 0 2px 0 rgba(0, 0, 0, 0.2);
+	}
+   	
+   	
+   	/* ========== TWITTER FEED -========== */
+
+    ul#twitter_update_list {list-style: none; padding: 0; margin: 0; font-size: 0.78em; font-family: georgia; font-style: italic; opacity: 0.8; -moz-opacity:0.8; -webkit-opacity:0.8;}
+    ul#twitter_update_list li {background: url(http://atfirstsightfilms.com/wp-content/themes/AtFirstSight/images/ico-twitter.png) no-repeat top left; min-height: 25px; list-style: none; padding: 0; margin: 0; padding-left: 34px;}
+    ul#twitter_update_list a {color: white; text-decoration: none;}
+    ul#twitter_update_list a:hover {text-decoration: underline;}
+    
+    .twitterFeed {height: 60px;}
+    .tweetContainer {width: 100%; height: 60px; position: relative; overflow: hidden; display: none;}
+    .tweetContainer ul {list-style: none; padding: 0; margin: 0; font-size: 0.93em; font-family: 'Vollkorn', serif; font-style: italic; opacity: 0.9; -moz-opacity:0.9; -webkit-opacity:0.9;}
+    .tweetContainer ul li {background: url(http://atfirstsightfilms.com/wp-content/themes/AtFirstSight/images/ico-twitter.png) no-repeat top left; min-height: 25px; list-style: none; padding: 0; margin: 0; padding-left: 34px; min-height: 158px;}
+    .tweetContainer ul a {color: white; text-decoration: none;}
+    .tweetContainer ul a:hover {text-decoration: underline;}
+    
+
+
+	/*	========== BigVideo Styles ==========
+	You may need to adjust these styles to get this working right in your design. */
+		
+	#big-video-wrap{overflow:hidden;position:fixed;height:100%;width:100%;top:0;left:0;}
+	#big-video-vid,#big-video-image{position:absolute;}
+	#big-video-control-container{position:fixed;bottom:20px;padding: 0 20px;width:100%;
+	  -webkit-transition-duration:0.6s;-moz-transition-duration:0.6s;-ms-transition-duration:0.6s;-o-transition-duration:0.6s;transition-duration:0.6s;}
+	#big-video-control{width:100%;height:16px;position:relative;}
+	#big-video-control-middle{margin: 0 56px 0 24px;}
+	#big-video-control-bar{width:100%;height:16px;position:relative;cursor:pointer;}
+	#big-video-control-progress{position:absolute;top:7px;height:3px;width:0%;background:#fff;}
+	#big-video-control-track{position:absolute;top:8px;height:1px;width:100%;background:#fff;}
+	#big-video-control-bound-left{left:0;}
+	#big-video-control-bound-right{right:-1px}
+	#big-video-control-track .ui-slider-handle {opacity:0;}
+	#big-video-control-playhead{left:30%;}
+	#big-video-control-play{position:absolute;top:0;left:0;height:16px;width:16px;background-image:url('bigvideo.png');}
+	#big-video-control-timer{position:absolute;top:1px;right:0;color:#fff;font-size:11px;}
+	#big-video-control-playhead,#big-video-control-bound-left,#big-video-control-bound-right{position:absolute;top:0;height:16px;width:1px;background:#fff;}
+	#big-video-control .ui-slider-handle{border-left:solid 1px #fff; width:16px;height:16px;position:absolute;top:-8px;}
+	.transparent{-ms-filter:"progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";filter:alpha(opacity=0);-moz-opacity:0;-khtml-opacity:0;opacity:0;}
+	.vjs-big-play-button{display:none !important;}
+
+
+
+
+
+
+
+   	/* ========== OLD STYLE ========== */
+
+
+img#wpstats{width:0px;height:0px;overflow:hidden}
+
+.searchbar {margin-top: 2px;}
+.searchbar .screen-reader-text {dispaly: none;}
+.searchbar label {display: none;}
+.searchbar input {height: 20px;}
+.searchbar #s {
+width: 97px!important; 
+padding: 0; 
+margin: 0; 
+margin-top: 4px; 
+background: #d3d3d1!important; 
+color: #ffffff!important;
+-webkit-border-radius: 5px 0px 0px 5px;
+-moz-border-radius: 5px 0px 0px 5px;
+border-radius: 5px 0px 0px 5px;
+-webkit-box-shadow: rgba(0, 0, 0, 0.199219) 0px 0px 0px inset;
+border: none;
+height: 22px;
+padding-left: 8px;
+padding-right: 4;
+margin-right: 0;
+}
+.searchbar #searchsubmit {
+width: 25px!important; 
+margin-left: 0;
+padding-left: 0;
+padding: 0; 
+margin: 0; 
+margin-top: 0px; 
+height: 22px; 
+font-size: 0.8em; 
+background: url(http://atfirstsightfilms.com/wp-content/themes/AtFirstSight/images/btn-search-bg.gif) no-repeat center #d3d3d1!important;
+-webkit-border-radius: 0px 5px 5px 0px;
+-moz-border-radius: 0px 5px 5px 0px;
+border-radius: 0px 5px 5px 0px;
+-webkit-box-shadow: rgba(0, 0, 0, 0.199219) 0px 0px 0px inset;
+border: none;
+cursor: pointer;
+color: #fff;
+text-indent: -9999px;
+margin-left: -3px;
+border-left: #d3d3d1 2px solid;
+}
+
+
+/* ==========================================================================*/
+/*********************** BLOG STYLE ************************/
+/* ==========================================================================*/
+
+.blwrapper {width: 850px; margin-left: auto; margin-right: auto;}
+
+.bwrapper1 {width: 700px; margin-right: 15px; float: left;}
+.bwrapper1 p {padding-right: 40px; padding-top: 6px; padding-bottom: 6px;}
+.bwrapper1 a {color: #a392c6;}
+.bwrapper1 a:hover {text-decoration: underline;}
+.bwrapper1 img {border: none; margin-top: 6px;}
+
+.bwrapper2 {width: 150px; margin-left: 710px; position: fixed; text-align: right; padding-top: 15px;}
+.bwrapper2 a {border: none;}
+
+.vims {margin-top: 8px; margin-bottom: 4px;}
+
+.bwrartcinfo1 {padding: 0!important; margin: 0!important; font-size: 0.9em; color: #a3dad6; font-style: italic; margin-bottom: 2px!important;}
+.bwrartcinfo2 {background: #c7df89; text-align: left; margin-top: 6px; margin-bottom: 6px; color: #ffffff; margin-right: 21px; padding-left: 12px; padding-right: 12px; font-size: 0.8em;}
+.bwrartcinfo2 span {padding-left: 6px; padding-right: 6px; color: #f2ffcf; text-align: right;}
+.bwrartcinfo2 a {color: #ffffff; text-decoration: none; padding: 0; margin: 0; padding-top: 6px; padding-bottom: 6px;float: right; padding-left: 6px; padding-right: 6px;}
+.bwrartcinfo2 a:hover {color: #c7df89; text-decoration: none; background: #f2ffd0;}
+.bwrartcinfo2 p {padding: 0; margin: 0; padding-top: 6px; padding-bottom: 6px; float: left;}
+.bwrartcinfo2 img {padding: 0; margin: 0; padding-top: 6px; padding-bottom: 6px;float: right; padding-left: 6px; padding-right: 2px; margin-top: 1px;}
+
+.blogsocial {margin-left: 20px; margin-top: 12px;}
+.blogsocial img {float: left; padding-right: 5px; border: none!important;}
+.bsocend {padding-right: 0!important;}
+.socialbtnfb {}
+.socialbtntw {}
+
+.social-links {float: none; text-align: left; display: inline; width: 80%; border-bottom: 1px dashed gray; padding: 0; margin: 0; margin-top: 8px;}
+.social-links .pinterest {border-bottom: 1px dashed gray!important; margin-right: 20px;}
+.social-links .twitter-tweet-button {margin-right: -60px;}
+
+.addthis_toolbox {margin-top: 5px; margin-bottom: 5px;}
+
+
+/* ==========================================================================*/
+/*********************** FACEBOOK LIKE DISPLAY ************************/
+/* ==========================================================================*/
+.connect_widget_not_connected_text {color: #ee7337!important; font-style:italic!important;}
+.connect_widget_text {color: #ee7337!important; font-family: Georgia, Arial, Times, serif!important; font-style:italic!important;}
+.connect_widget_facebook_favicon {}
+.connect_widget_vertical_center connect_widget_button_cell {}
+.connect_widget_like_button {
+display: block;
+float: left;
+padding: 2px 2px;
+}
+.connect_widget_like_button .liketex {background: url(../images/191wiexm.png) no-repeat 0% -33px!important; color: #F00!important;}
+.fboverride {color: #ee7337!important; font-family: Georgia, Arial, Times, serif!important; font-style:italic!important;}
+
+.dsq-autheneticate-copy {display: none!important;}
+
+#dsq-content .dsq-textarea .dsq-textarea-wrapper, #dsq-content .dsq-input-wrapper {
+border: 1px solid #999;
+-webkit-border-radius: 0px!important;
+-moz-border-radius: 0px!important;
+border-radius: 0px!important;
+}
+.dsq-login-buttons {padding-top: 0!important; padding-bottom: 5px!important; margin-top: 0!important; margin-bottom: 0!important;}
+
+#dsq-content {width: 679px!important;}
+
+#dsq-comments-title {font-size: 0.8em!important; padding-top: 0!important; padding-bottom: 0!important; margin-top: 0!important; margin-bottom: 0!important;}
+
+#dsq-new-post h3 {font-size: 1.2em!important; padding-top: 0!important; padding-bottom: 7px!important; margin-top: 0!important; margin-bottom: 0!important;}
+
+.dsq-global-toolbar-likes {}
+.dsq-global-toolbar-container {text-align: right;}
+.dsq-global-toolbar-dropdown-container {width: 100px;}
+
+.dsq-textarea {color: #d3d3d3!important;}
+
+#dsq-content .dsq-comment-header {
+_background: #f2f3eb!important;
+_color: #333;
+line-height: normal;
+height: auto;
+border: 1px solid rgba(0, 0, 0, .08);
+-moz-border-radius: 0px!important;
+-webkit-border-radius: 0px!important;
+}
+
+
+/* ==========================================================================*/
+/*********************** ABOUT STYLE ************************/
+/* ==========================================================================*/
+
+#aboutus {width: 810px; margin-left: auto; margin-right: auto;}
+#aboutimg {float: left; text-align: left; padding: 0px; margin: 0;}
+#aboutus img {padding: 0; margin: 0;}
+#aboutus .afsbar {padding: 0; margin: 0; margin-left: -28px;}
+.abtsp {padding: 0px!important;}
+#aboutimg p {margin-top: 14px; font-size: 0.86em; line-height: 1.3em; margin-left: 3px;}
+#aboutimg p span {color: #14a895; font-size: 1.2em; font-weight: bold;}
+
+#weddings {}
+#weddings h2 {color: #a392c6!important; width: 400px;}
+
+.wedinfotop {width: 500px; float: left; padding-bottom: 10px;}
+
+.wedinfo {width: 430px; text-align: left;}
+.availbtn {float: right;}
+.availbtn .caldis {margin-top: 0px; margin-bottom: 3px; text-align: right;}
+.availbtn .calendar {margin-top: 5px;}
+
+
+/* ==========================================================================*/
+/*********************** CONTACT STYLE ************************/
+/* ==========================================================================*/
+
+form input {
+-webkit-box-shadow: rgba(0, 0, 0, 0.199219) 0px 0px 5px inset;
+background: white;
+border: 1px solid rgba(0, 0, 0, 0.199219);
+margin: 0.2em 0em 5px 0px;
+padding: 5px;
+}
+
+.wpcf7-form-control-wrap your-message {}
+.wpcf7-submit {}
+
+#contactleft {float: left; width: 350px; margin-right: 15px; text-align: left;}
+#contactleft ul {margin: 0; padding: 0; list-style: none; margin-left: -3px;}
+#contactleft li {margin: 0; padding: 0; list-style: none;}
+	#blog #contactright {padding-bottom: 20px;}
+#contactright {float: left; width: 405px; text-align: left;}
+#contactright input {border: #CCC 1px solid; color: #666;}
+#contactright p {padding-top: 0; padding-bottom: 0; margin: 0;}
+#contactright form {padding-top: 15px;}
+
+
+
+#clientleft {float: left; width: 150px; margin-right: 15px; text-align: left;}
+#clientleft ul {margin: 0; padding: 0; list-style: none; margin-left: -3px;}
+#clientleft li {margin: 0; padding: 0; list-style: none;}
+#clientright {float: left; width: 600px; text-align: left;}
+#clientright input {border: #CCC 1px solid; color: #666;}
+#clientright h5 {font-size: 1.3em!important; margin: 0; padding: 0; margin-bottom: 10px; margin-top: 35px; color: #a392c6;}
+#clientright p {padding-top: 0; padding-bottom: 0; margin: 0;}
+#clientright form {padding-top: 15px;}
+
+
+#blog .with_frm_style .submit input[type="submit"], .frm_form_submit_style {
+		width: 50%;
+		display: block;
+		height: 36px;
+		border: 4px solid #15a994;
+		text-transform: uppercase;
+		color: white;
+		background: #15a994;
+		font-family: "proxima-nova",sans-serif; font-weight: 600;
+    	-webkit-text-shadow: 0 2px 0 rgba(0,0,0,0.2);
+		-moz-text-shadow: 0 2px 0 rgba(0,0,0,0.2);
+		-ms-text-shadow: 0 2px 0 rgba(0,0,0,0.2);
+		-o-text-shadow: 0 2px 0 rgba(0,0,0,0.2);
+		text-shadow: 0 2px 0 rgba(0, 0, 0, 0.2);
+		border: none;
+		cursor: pointer;
+		-moz-border-radius: 0px;
+		-webkit-border-radius: 0px;
+		border-radius: 0px;
+		-moz-box-shadow: 0px 0px 0px #000000;
+		-webkit-box-shadow: 0px 0px 0px #000000;
+		box-shadow: 0px 0px 0px #000000;
+		-ms-filter: "progid:DXImageTransform.Microsoft.Shadow(Strength=0, Direction=0, Color='#000000')";
+		filter: "progid:DXImageTransform.Microsoft.Shadow(Strength=0, Direction=0, Color='#000000')";
+		margin-top: 0;
+		margin-bottom: 50px;
+}
+
+
+
+#inquiryleft {float: left; width: 320px; margin-right: 15px; text-align: left;}
+#inquiryleft ul {margin: 0; padding: 0; list-style: none; margin-left: -3px;}
+#inquiryleft li {margin: 0; padding: 0; list-style: none;}
+#inquiryright {float: left; width: 435px; text-align: left; padding-bottom: 160px;}
+#inquiryright input {border: #CCC 1px solid; color: #666;}
+#inquiryright p {padding-top: 0; padding-bottom: 0; margin: 0;}
+#inquiryright form {padding-top: 15px;}
+
+
+.with_frm_style label.frm_primary_label {color: white!important;}
+.with_frm_style .frm_radio label, .with_frm_style .frm_checkbox label {color: white!important;}
+#blog .nocomments {display: none;}
+#blog .hideli {display: none;}
+
+#frm_form_10_container {margin-bottom: -120px; margin-top: -5px;}
+#frm_form_10_container div {padding-top: 4px; padding-bottom: 4px;}
+#frm_form_10_container  label {margin-bottom: 1px;}
+#frm_form_10_container input {margin-bottom: 5px;}
+
+
+
+.wpcf7-response-output {border: #a3dad6 2px solid; margin-top: 0!important; padding-top: 0!important; margin-left: 0!important;}
+
+div.wpcf7-validation-errors {
+border: none!important;	
+background: #a3dad6;
+color: #ffffff;
+padding-top: 7px!important;
+padding-bottom: 7px!important;
+}
+
+div.wpcf7-mail-sent-ng {
+	border: none!important;
+	background: #c7df89;
+	color: #ffffff;
+	padding-top: 7px!important;
+	padding-bottom: 7px!important;
+}
+
+div.wpcf7-mail-sent-ng {
+	border: none!important;
+	background: #c7df89;
+	color: #ffffff;
+	padding-top: 7px!important;
+	padding-bottom: 7px!important;
+}
+
+div.wpcf7-mail-sent-ok {
+	border: none!important;
+	background: #a392c6;
+	padding-top: 7px!important;
+	padding-bottom: 7px!important;
+	color: #ffffff;
+}
+
+
+.txt {text-align: left; line-height: 1.35em; font-size: 1em; margin-top: 15px;}
+.txt p {margin: 0; padding: 0;}
+
+
+
+
+
+
+/* ==========================================================================
+   Media Queries
+   ========================================================================== */
+
+
+@media screen and ( max-width: 680px ) {
+
+#home {width: 83%; margin-left: 0%; bottom: 20%;}
+	#home h1 {font-size: 25px;}
+
+.tweetContainer ul li {font-size: 0.8em; line-height: 1.7em;}
+
+header nav ul li.vimeo {background: url(http://atfirstsightfilms.com/wp-content/themes/AtFirstSight/images/btn-vimeo.png) center center no-repeat; text-indent: -9999px; overflow: hidden; opacity: 0.6;}
+header nav ul li.twitter {background: url(http://atfirstsightfilms.com/wp-content/themes/AtFirstSight/images/btn-twitter.png) center center no-repeat; text-indent: -9999px; overflow: hidden; opacity: 0.6;}
+header nav ul li.facebook {background: url(http://atfirstsightfilms.com/wp-content/themes/AtFirstSight/images/btn-facebook.png) center center no-repeat; text-indent: -9999px; overflow: hidden; opacity: 0.6;}
+header nav ul li.linkedin {background: url(http://atfirstsightfilms.com/wp-content/themes/AtFirstSight/images/btn-linkedin.png) center center no-repeat; text-indent: -9999px; overflow: hidden; opacity: 0.6;}
+	header nav ul li a:hover {background: #838383; text-indent: -9999px; overflow: hidden; opacity: 1; color: black; -moz-transition: all 50ms ease-in; -webkit-transition: all 50ms ease-in;-o-transition: all 50ms ease-in;-ms-transition: all 50ms ease-in; transition: all 50ms ease-in;}
+
+header a#logo {left: 33%; bottom: -26%;}
+	header a#logo img {width: 95px; }
+
+
+}
+
+
+
+@media screen and ( min-width: 681px ) and (max-width: 900px) {
+
+
+}
+
+
+
+@media screen and ( min-width: 900px ) {
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media only screen and (min-width: 480px) {
+
+/* ====================
+    INTERMEDIATE: Menu
+   ==================== */
+
+    nav a {}
+    nav li:first-child a {}
+    nav li:last-child a {}
+
+/* ========================
+    INTERMEDIATE: IE Fixes
+   ======================== */
+
+    nav ul li {display: inline;}
+    .oldie nav a {}
+}
+
+
+@media only screen and (min-width: 1140px) {
+
+/* ===============
+    Maximal Width
+   =============== */
+
+    .wrapper {
+        width: 1026px; /* 1140px - 10% for margins */
+        margin: 0 auto;
+    }
+}
+
+/* ==========================================================================
+   Helper classes
+   ========================================================================== */
+
+.ir {background-color: transparent; border: 0; overflow: hidden; *text-indent: -9999px;}
+.ir:before {content: ""; display: block; width: 0; height: 100%;}
+.hidden {display: none !important; visibility: hidden;}
+.visuallyhidden {border: 0; clip: rect(0 0 0 0); height: 1px; margin: -1px; overflow: hidden; padding: 0; position: absolute; width: 1px;}
+.visuallyhidden.focusable:active, .visuallyhidden.focusable:focus {clip: auto; height: auto; margin: 0; overflow: visible; position: static; width: auto;}
+.invisible {visibility: hidden;}
+.clearfix:before, .clearfix:after {content: " "; display: table;}
+.clearfix:after {clear: both;}
+.clearfix {*zoom: 1;}
+
+/* ==========================================================================
+   Print styles
+   ========================================================================== */
+
+@media print {
+    * {
+    	background: transparent !important;
+        color: #000 !important; /* Black prints faster: h5bp.com/s */
+        box-shadow:none !important;
+        text-shadow: none !important;
+    }
+
+    a, a:visited {text-decoration: underline;}
+    a[href]:after {content: " (" attr(href) ")";}
+    abbr[title]:after {content: " (" attr(title) ")";}
+
+    /*
+     * Don't show links for images, or javascript/internal links
+     */
+
+    .ir a:after,
+    a[href^="javascript:"]:after,
+    a[href^="#"]:after {content: "";}
+    pre, blockquote {border: 1px solid #999; page-break-inside: avoid;}
+    thead {display: table-header-group; /* h5bp.com/t */}
+    tr, img {page-break-inside: avoid;}
+    img {max-width: 100% !important;}
+
+    @page {
+        margin: 0.5cm;
+    }
+
+    p, h2, h3 {orphans: 3; widows: 3;}
+    h2, h3 {page-break-after: avoid;}
+}

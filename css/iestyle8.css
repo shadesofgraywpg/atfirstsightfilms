@@ -1,0 +1,26 @@
+
+/* ==========================================================================*/
+/* This css file should establish styles that're shared by all sections  */
+/* ==========================================================================*/
+
+h2 {
+	font-size: 16px!important;
+	color: #bdbcbc;
+	text-align: left;
+	margin: 0;
+	padding: 0;
+	margin-bottom: 7px;
+	line-height: 1.3em!important;
+}
+
+h3 {
+	font-size: 13px!important;
+	color: #3e3e3e;
+	text-align: left;
+	margin: 0;
+	padding: 0;
+	margin-bottom: 7px;
+	line-height: 2.5em!important;
+	margin-top: 22px;
+}
+

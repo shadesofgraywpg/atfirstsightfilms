@@ -1,0 +1,46 @@
+
+/* ==========================================================================*/
+/* This css file should establish styles that're shared by all sections  */
+/* ==========================================================================*/
+
+h2 {
+	font-size: 16px!important;
+	color: #bdbcbc;
+	text-align: left;
+	margin: 0;
+	padding: 0;
+	margin-bottom: 7px;
+	line-height: 0.39em!important;
+}
+
+h3 {
+	font-size: 13px!important;
+	color: #3e3e3e;
+	text-align: left;
+	margin: 0;
+	padding: 0;
+	margin-bottom: 7px;
+	line-height: 0.8em!important;
+	margin-top: 22px;
+}
+
+#aboutus {width: 790px;}
+#aboutimg {margin: 0; padding: 2px;}
+
+.blwrapper {width: 850px; margin-left: auto; margin-right: auto;}
+
+.bwrapper1 {width: 700px; margin-right: 6px; float: left;}
+.bwrapper1 p {padding-right: 40px; padding-top: 6px; padding-bottom: 6px;}
+.bwrapper1 img {border: #ebe4e0 1px solid; margin-top: 6px; padding: 8px;}
+
+.bwrapper2 {width: 150px; margin-left: 210px; position: fixed; text-align: right; padding-top: 15px;}
+.bwrapper2 a {border: none;}
+
+.vims {margin-top: 8px; margin-bottom: 4px;}
+
+.bwrartcinfo1 {padding: 0!important; margin: 0!important; font-size: 0.9em; color: #a3dad6; font-style: italic; margin-bottom: 2px!important;}
+.bwrartcinfo2 {background: #c7df89; height: 35px; text-align: left; margin-top: 7px; margin-bottom: 10px; color: #ffffff; margin-right: 21px; padding-left: 12px; padding-right: 12px; font-size: 0.8em;}
+.bwrartcinfo2 span {padding-left: 6px; padding-right: 6px; color: #f2ffcf; text-align: right;}
+.bwrartcinfo2 a {color: #ffffff; text-decoration: none; padding: 0; margin: 0; padding-top: 6px; padding-bottom: 6px;float: right; padding-left: 5px; padding-right: 5px;}
+.bwrartcinfo2 a:hover {color: #c7df89; text-decoration: none; background: #f2ffd0;}
+.bwrartcinfo2 p {padding: 0; margin: 0; padding-top: 6px; padding-bottom: 6px; float: left;}

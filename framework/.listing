@@ -1,0 +1,17 @@
+drwxr-xr-x    7 38118      vusers             17 Jul  4  2013 .
+drwxr-xr-x   11 38118      vusers             49 Jan 18 17:18 ..
+-rw-r--r--    1 38118      vusers          15769 Jul  4  2013 .function.php
+-rw-r--r--    1 38118      vusers           1642 Jul  4  2013 _init.php
+-rw-r--r--    1 38118      vusers            655 Jul  4  2013 changelog.txt
+drwxr-xr-x    2 38118      vusers              6 Jul  4  2013 css
+drwxr-xr-x    2 38118      vusers              8 Oct 17 13:23 img
+drwxr-xr-x    2 38118      vusers              7 Jul  4  2013 js
+drwxr-xr-x    3 38118      vusers              4 Jul  4  2013 shortcodes
+-rw-r--r--    1 38118      vusers          18989 Jul  4  2013 stag-admin-functions.php
+-rw-r--r--    1 38118      vusers           4707 Jul  4  2013 stag-admin-init.php
+-rw-r--r--    1 38118      vusers           7932 Jul  4  2013 stag-admin-metaboxes.php
+-rw-r--r--    1 38118      vusers           6446 Jul  4  2013 stag-admin-page-options.php
+-rw-r--r--    1 38118      vusers           3181 Jul  4  2013 stag-admin-page-update.php
+-rw-r--r--    1 38118      vusers           6824 Jul  4  2013 stag-advanced.php
+-rw-r--r--    1 38118      vusers          10200 Jul  4  2013 stag-theme-functions.php
+drwxr-xr-x    2 38118      vusers              5 Oct 17 14:00 updater
