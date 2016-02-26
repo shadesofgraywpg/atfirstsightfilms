@@ -26,7 +26,7 @@ body {background: #f8f8f8;}
 
 
 .navbar {width: 100%; z-index: 1000; margin-bottom: 0;}
-.navbar .topcolor {background: #5b4b43 url(/wp-content/themes/AtFirstSightFilms/images/top-bar.gif) no-repeat center top; height: 5px; margin-bottom:0; width: 100%;}
+.navbar .topcolor {background: #5b4b43 url(../images/top-bar.gif) no-repeat center top; height: 5px; margin-bottom:0; width: 100%;}
 
 .navbar-inner {background: white; border-radius: 0!important;
 -webkit-box-shadow:  0px 0px 10px 1px rgba(0, 0, 0, 0.05);
@@ -85,7 +85,7 @@ transition: all 0.6s ease;
 	}
 */
 .navbar .brand {
-background: url('/wp-content/themes/AtFirstSightFilms/images/AtFirstSightFilms@2x.png') no-repeat center center;
+background: url('../images/AtFirstSightFilms@2x.png') no-repeat center center;
 background-size: 50px;
 text-indent: 9999px;
 overflow: hidden;
@@ -157,7 +157,7 @@ vertical-align: baseline;
 		*/
 
 	#backgroundVideo { min-width: 100%; left: 50%; top: 50%; position: absolute; }
-	#videoContainer #background_patternOverlay { background: url(/wp-content/themes/AtFirstSightFilms/images/video/bg.png) repeat; min-width: 100%; left: 0; top: 0; position: absolute; z-index: 1; -ms-filter:"progid:DXImageTransform.Microsoft.Alpha(Opacity=15)"; filter: alpha(opacity=15); -moz-opacity:0.15; -khtml-opacity: 0.15; opacity: 0.15;}
+	#videoContainer #background_patternOverlay { background: url(../images/video/bg.png) repeat; min-width: 100%; left: 0; top: 0; position: absolute; z-index: 1; -ms-filter:"progid:DXImageTransform.Microsoft.Alpha(Opacity=15)"; filter: alpha(opacity=15); -moz-opacity:0.15; -khtml-opacity: 0.15; opacity: 0.15;}
 	.ie #backgroundVideo object { background-color: none; min-width: 100%; left: 0; top: 0; position: absolute; }
 
 
@@ -166,7 +166,7 @@ vertical-align: baseline;
 
 .background_container {height: 550px; background-color: white; text-align: center; position: relative; width: 100%; z-index: 1; border: 2px solid red; overflow: hidden;}
 
-#background_patternOverlay { background: url(/wp-content/themes/AtFirstSightFilms/images/video/bg.png) repeat; height: 550px; position: relative; width: 100%; z-index: 2; -ms-filter:"progid:DXImageTransform.Microsoft.Alpha(Opacity=10)"; filter: alpha(opacity=10); -moz-opacity:0.1; -khtml-opacity: 0.1; opacity: 0.1;}
+#background_patternOverlay { background: url(../images/video/bg.png) repeat; height: 550px; position: relative; width: 100%; z-index: 2; -ms-filter:"progid:DXImageTransform.Microsoft.Alpha(Opacity=10)"; filter: alpha(opacity=10); -moz-opacity:0.1; -khtml-opacity: 0.1; opacity: 0.1;}
 #background_video { min-width: 100%; height: 550px; overflow: hidden; position: absolute; }
 .ie #background_video object { background-color: none; min-width: 100%; left: 0; top: 0; position: absolute; z-index: 5; }
 	
@@ -175,7 +175,7 @@ vertical-align: baseline;
 #about {padding-top: 100px; margin-top: 0px; margin-bottom: 20px;}
 #about .demo-tiles {margin-bottom: 80px;}
 #about h4 {font-size: 30px; font-weight: 100; line-height: 45px; margin: 0; padding: 0; border: 0; display: block;}
-#about h4.hello {background: url(/wp-content/themes/AtFirstSightFilms/images/top-bar.gif) repeat-y center top; padding-left: 0px; margin-left: 0px; margin-bottom: 70px; height: 3px;}
+#about h4.hello {background: url(../images/top-bar.gif) repeat-y center top; padding-left: 0px; margin-left: 0px; margin-bottom: 70px; height: 3px;}
 #about .fb-like {padding-bottom: 20px;}
 #about .rotate {padding-top: 20px;}
 
@@ -202,7 +202,7 @@ border: 10px solid white;
 }
 
 
-.demo-samples h4.hello {font-weight: 100; line-height: 45px; margin: 0; padding: 0; border: 0; display: block; background: url(/wp-content/themes/AtFirstSightFilms/images/top-bar.gif) repeat-y center top; padding-left: 0px; margin-left: 0px; margin-bottom: 70px; height: 3px; font-size: 30px;}
+.demo-samples h4.hello {font-weight: 100; line-height: 45px; margin: 0; padding: 0; border: 0; display: block; background: url(../images/top-bar.gif) repeat-y center top; padding-left: 0px; margin-left: 0px; margin-bottom: 70px; height: 3px; font-size: 30px;}
 
 .demo-samples {background: #e0e0e0; padding-top: 100px; padding-bottom: 100px; margin-top: 0px; margin-bottom: 0px;}
 .demo-samples .demo-video {background: white; margin-left: 0;}
@@ -299,7 +299,7 @@ transition: all 0.2s ease;
 .processtxt .span4 iframe {margin: 1.83em 0;}
 .processtxt .span8 {padding: 20px;}
 .processtxt h2 {font-size: 30px; line-height: 45px; font-weight: 100; margin: .15em 0;}
-.processtxt .line {background: url(/wp-content/themes/AtFirstSightFilms/images/top-bar.gif) repeat-y center top; min-height: 3px; max-height: 3px; height: 3px; margin-top: 25px;}
+.processtxt .line {background: url(../images/top-bar.gif) repeat-y center top; min-height: 3px; max-height: 3px; height: 3px; margin-top: 25px;}
 .processtxt .descript {background: white; border-bottom: 5px solid #eab020; padding: 20px 40px 20px 40px;  margin-top: 20px; margin-bottom: 30px;}
 .processtxt .descript h3 {line-height: 30px; font-weight: 100; margin-bottom: 25px;}
 
@@ -791,7 +791,7 @@ color: #c5e6e2;
 }
 .bottom-menu-inverse a:hover {color: white;}
 #footer .bottom-menu .brand {
-background: url('/wp-content/themes/AtFirstSightFilms/images/AtFirstSightFilms-white@2x.png') no-repeat center center;
+background: url('../images/AtFirstSightFilms-white@2x.png') no-repeat center center;
 background-size: 50px;
 height: 53px;
 text-align: left;
@@ -992,12 +992,12 @@ body.vjs-full-window {
   width: 58px; }
 
 .vjs-paused .vjs-play-control {
-  background: url("/wp-content/themes/AtFirstSightFilms/images/video/play.png") center -31px no-repeat;
+  background: url("../images/video/play.png") center -31px no-repeat;
   background-size: 16px 64px; }
   .vjs-paused .vjs-play-control:hover div {
     opacity: 0; }
   .vjs-paused .vjs-play-control div {
-    background: url("/wp-content/themes/AtFirstSightFilms/images/video/play.png") center 15px no-repeat;
+    background: url("../images/video/play.png") center 15px no-repeat;
     background-size: 16px 64px;
     height: 47px;
     -webkit-transition: opacity 0.25s;
@@ -1007,12 +1007,12 @@ body.vjs-full-window {
     -webkit-backface-visibility: hidden; }
 
 .vjs-playing .vjs-play-control {
-  background: url("/wp-content/themes/AtFirstSightFilms/images/video/pause.png") center -31px no-repeat;
+  background: url("../images/video/pause.png") center -31px no-repeat;
   background-size: 15px 64px; }
   .vjs-playing .vjs-play-control:hover div {
     opacity: 0; }
   .vjs-playing .vjs-play-control div {
-    background: url("/wp-content/themes/AtFirstSightFilms/images/video/pause.png") center 15px no-repeat;
+    background: url("../images/video/pause.png") center 15px no-repeat;
     background-size: 15px 64px;
     height: 47px;
     -webkit-transition: opacity 0.25s;
@@ -1031,7 +1031,7 @@ body.vjs-full-window {
     margin: 0.5em auto 0; }
 
 .vjs-mute-control {
-  background: url("/wp-content/themes/AtFirstSightFilms/images/video/volume-full.png") center -48px no-repeat;
+  background: url("../images/video/volume-full.png") center -48px no-repeat;
   background-size: 16px 64px;
   cursor: pointer !important;
   position: absolute;
@@ -1041,9 +1041,9 @@ body.vjs-full-window {
     opacity: 0; }
   .vjs-mute-control.vjs-vol-0,
   .vjs-mute-control.vjs-vol-0 div {
-    background-image: url("/wp-content/themes/AtFirstSightFilms/images/video/volume-off.png"); }
+    background-image: url("../images/video/volume-off.png"); }
   .vjs-mute-control div {
-    background: #2c3e50 url("/wp-content/themes/AtFirstSightFilms/images/video/volume-full.png") no-repeat center 2px;
+    background: #2c3e50 url("../images/video/volume-full.png") no-repeat center 2px;
     background-size: 16px 64px;
     height: 18px;
     -webkit-transition: opacity 0.25s;
@@ -1148,7 +1148,7 @@ body.vjs-full-window {
   float: right; }
 
 .vjs-fullscreen-control {
-  background-image: url("/wp-content/themes/AtFirstSightFilms/images/video/fullscreen.png");
+  background-image: url("../images/video/fullscreen.png");
   background-position: center -47px;
   background-size: 15px 64px;
   cursor: pointer !important;
@@ -1159,7 +1159,7 @@ body.vjs-full-window {
     opacity: 0; }
   .vjs-fullscreen-control div {
     height: 18px;
-    background: url("/wp-content/themes/AtFirstSightFilms/images/video/fullscreen.png") no-repeat center 2px;
+    background: url("../images/video/fullscreen.png") no-repeat center 2px;
     background-size: 15px 64px;
     -webkit-transition: opacity 0.25s;
     -moz-transition: opacity 0.25s;

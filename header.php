@@ -73,13 +73,13 @@
               <div class="container">
                 <button type="button" class="btn btn-navbar" data-toggle="collapse" data-target="#nav-collapse-01">
                 </button>
-                <a href="http://atfirstsightfilms.com/" class="brand">AFS</a>
+                <a href="<?php echo esc_url( home_url( '/' ) ); ?>" class="brand">AFS</a>
                 <div class="nav-collapse collapse" id="nav-collapse-01">
                   <ul class="nav">
-                    <li><a href="http://atfirstsightfilms.com/#work">Work</a></li>
-                    <li><a href="http://atfirstsightfilms.com/#about">About</a></li>
-                    <li><a href="http://atfirstsightfilms.com/#contact">Contact</a></li>
-                    <li class="active"><a href="http://atfirstsightfilms.com/blog">Blog</a></li>
+                    <li><a href="<?php echo esc_url( home_url( '/' ) ); ?>#work">Work</a></li>
+                    <li><a href="<?php echo esc_url( home_url( '/' ) ); ?>#about">About</a></li>
+                    <li><a href="<?php echo esc_url( home_url( '/' ) ); ?>#contact">Contact</a></li>
+                    <li class="active"><a href="<?php echo esc_url( home_url( '/' ) ); ?>blog">Blog</a></li>
                   </ul> <!-- /nav -->
 
                   
