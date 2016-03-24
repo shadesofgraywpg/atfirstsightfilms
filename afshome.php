@@ -48,6 +48,14 @@ Template Name: AFS Home
     <!--[if lt IE 9]>
       <script src="<?php echo esc_url( home_url( '/' ) ); ?>wp-content/themes/AtFirstSightFilms/js/html5shiv.js"></script>
     <![endif]-->
+
+
+<meta property="og:title" content="At First Sight Films" />
+<meta property="og:site_name" content="<?php wp_title('|', true, 'right'); ?>" />
+<meta property="og:url" content="<?php echo get_permalink( $post->ID ); ?>" />
+<meta property="og:description" content="<?php the_description(); ?>" />
+<meta property="og:image" content="<?php echo esc_url( home_url( '/' ) ); ?>wp-content/themes/AtFirstSightFilms/images/afs-feature.jpg" />
+
     
   <meta property="twitter:account_id" content="4503599627886606" />
   </head>
