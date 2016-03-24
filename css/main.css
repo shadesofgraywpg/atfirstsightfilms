@@ -260,8 +260,10 @@ z-index: 0; position: relative;}
 .entry-content ul li, .comment-text ul li {list-style-type: none!important;}
 
 
-.clientlist {width: auto; height: auto; position: relative; display: block; margin-bottom: 80px;}
-.clientlist .demo-content-wide div {background: #eab020; 
+.clientlist {width: auto; height: auto; position: relative; display: block; margin-bottom: 40px;}
+.clientlist .demo-content-wide div {
+	/*background: #eab020;*/
+	background: transparent;
 width: 19%; 
 height: 19%; 
 margin: 0 0 1.25% 1.25%;
@@ -270,9 +272,16 @@ text-align: center;
 -moz-transition: all 0.3s ease;
 -o-transition: all 0.3s ease;
 transition: all 0.3s ease;
+cursor: default;
+}
+.clientlist .demo-content-wide div a {cursor: default;}
+.clientlist .demo-content-wide div img {
+	-moz-opacity: 0.65; -khtml-opacity: 0.65; opacity: 0.65;
 }
 .clientlist .demo-content-wide div.first {margin: 0 0 1.25% 0;}
-.clientlist .demo-content-wide div:hover {background: #ee7337;
+.clientlist .demo-content-wide div:hover {
+	/*background: #ee7337;*/
+	background: #e0e0e0;
 transform: rotate(5deg);
 -ms-transform: rotate(5deg); /* IE 9 */
 -webkit-transform: rotate(5deg); /* Safari and Chrome */
@@ -280,7 +289,9 @@ transform: rotate(5deg);
 -moz-transition: all 0.2s ease;
 -o-transition: all 0.2s ease;
 transition: all 0.2s ease;
+cursor: default;
 }
+.clientlist .demo-content-wide div:hover img {-moz-opacity: 1; -khtml-opacity: 1; opacity: 1;}
 
 
 
@@ -301,7 +312,7 @@ transition: all 0.2s ease;
 .processtxt h2 {font-size: 30px; line-height: 45px; font-weight: 100; margin: .15em 0;}
 .processtxt .line {background: url(../images/top-bar.gif) repeat-y center top; min-height: 3px; max-height: 3px; height: 3px; margin-top: 25px;}
 .processtxt .descript {background: white; border-bottom: 5px solid #eab020; padding: 20px 40px 20px 40px;  margin-top: 20px; margin-bottom: 30px;}
-.processtxt .descript h3 {line-height: 30px; font-weight: 100; margin-bottom: 25px;}
+.processtxt .descript h3 {line-height: 32px; font-weight: 100; margin-bottom: 15px; font-size: 1.25em;}
 
 .processtxt ul {list-style: none; padding: 0; margin: 0; margin-top: 20px;}
 .processtxt ul li {display: inline;}

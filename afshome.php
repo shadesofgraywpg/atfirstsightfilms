@@ -108,28 +108,49 @@ Template Name: AFS Home
          <div class="demo-row demo-illustrations clientlist"> 	
          <div class="demo-content-wide">
          
-         <!--<h2>Big things come from small beginnings.</h2>-->
-         <h4>We tell engaging and authentic stories. As an easy-going and creative-driven team, we count ourselves blessed having the pleasure of working with exceptionally &amp; equally creative clients. To name a few...</h4>
+         <h4>We are an easy-going, creative &amp; strong storytelling team with years of experience, having worked with and been trusted by some of the most exceptional clients.</h4>
          
 	          <div class="first">
-	          	<a href="<?php echo esc_url( home_url( '/' ) ); ?>2013/10/composites-innovation-centre/">
-	          	<img src="<?php echo esc_url( home_url( '/' ) ); ?>wp-content/themes/AtFirstSightFilms/images/clients/cic@2x.png" alt="At First Sight Films Client: Composites Innovation Centre"></a><p>Composites Innovation Centre</p>
+	          	<a href="javascript:void(0);">
+	          	<img src="<?php echo esc_url( home_url( '/' ) ); ?>wp-content/themes/AtFirstSightFilms/images/clients/kindermorgan-dark@2x.png" alt="Kinder Morgan"></a><p>Kinder Morgan</p>
 	          </div>
 	          <div>
-	          	<a href="http://www.atfirstsightfilms.com/2013/07/whitewave-digital-day/">
-	          	<img src="<?php echo esc_url( home_url( '/' ) ); ?>wp-content/themes/AtFirstSightFilms/images/clients/google@2x.png" alt="At First Sight Films Client: Google"></a><p>Google</p>
+	          	<a href="javascript:void(0);">
+	          	<img src="<?php echo esc_url( home_url( '/' ) ); ?>wp-content/themes/AtFirstSightFilms/images/clients/leisurevans-dark@2x.png" alt="Leisure Travel Vans"></a><p>Leisure Travel Vans</p>
 	          </div>
 	          <div>
-	          	<a href="<?php echo esc_url( home_url( '/' ) ); ?>2015/08/theres-more-for-you-here/">
-	          	<img src="<?php echo esc_url( home_url( '/' ) ); ?>wp-content/themes/AtFirstSightFilms/images/clients/steinbach@2x.png" alt="At First Sight Films Client: Steinbach"></a><p>Steinbach Chamber of Commerce</p>
+	          	<a href="javascript:void(0);">
+	          	<img src="<?php echo esc_url( home_url( '/' ) ); ?>wp-content/themes/AtFirstSightFilms/images/clients/schneiderelectric-dark@2x.png" alt="Schneider Electric"></a><p>Schneider Electric</p>
 	          </div>
 	          <div>
-	          	<a href="http://www.atfirstsightfilms.com/2012/05/lennard-taylor-brand-story/">
-	          	<img src="<?php echo esc_url( home_url( '/' ) ); ?>wp-content/themes/AtFirstSightFilms/images/clients/lennardtaylor@2x.png" alt="At First Sight Films Client: Lennard Taylor"></a><p>Lennard Taylor</p>
+	          	<a href="javascript:void(0);">
+	          	<img src="<?php echo esc_url( home_url( '/' ) ); ?>wp-content/themes/AtFirstSightFilms/images/clients/cic-dark@2x.png" alt="Composites Innovation Centre"></a><p>Composites Innovation Centre</p>
 	          </div>
 	          <div>
-	          	<a href="<?php echo esc_url( home_url( '/' ) ); ?>2014/08/lode-king/">
-	          	<img src="<?php echo esc_url( home_url( '/' ) ); ?>wp-content/themes/AtFirstSightFilms/images/clients/lodeking@2x.png" alt="At First Sight Films Client: Lode King"></a><p>Lode King</p>
+	          	<a href="javascript:void(0);">
+	          	<img src="<?php echo esc_url( home_url( '/' ) ); ?>wp-content/themes/AtFirstSightFilms/images/clients/webershandwick-dark@2x.png" alt="Weber Shandwick"></a><p>Weber Shandwick</p>
+	          </div>
+	          
+	          
+	          <div class="first">
+	          	<a href="javascript:void(0);">
+	          	<img src="<?php echo esc_url( home_url( '/' ) ); ?>wp-content/themes/AtFirstSightFilms/images/clients/streamenergy-dark@2x.png" alt="Stream Energy"></a><p>Stream Energy</p>
+	          </div>
+	          <div>
+	          	<a href="javascript:void(0);">
+	          	<img src="<?php echo esc_url( home_url( '/' ) ); ?>wp-content/themes/AtFirstSightFilms/images/clients/steinbach-dark@2x.png" alt="Steinbach Chamber of Commerce"></a><p>City of Steinbach</p>
+	          </div>
+	          <div>
+	          	<a href="javascript:void(0);">
+	          	<img src="<?php echo esc_url( home_url( '/' ) ); ?>wp-content/themes/AtFirstSightFilms/images/clients/google-dark@2x.png" alt="Google & Youtube"></a><p>Google & Youtube</p>
+	          </div>
+	          <div>
+	          	<a href="javascript:void(0);">
+	          	<img src="<?php echo esc_url( home_url( '/' ) ); ?>wp-content/themes/AtFirstSightFilms/images/clients/caravus-dark@2x.png" alt="Caravus"></a><p>Caravus</p>
+	          </div>
+	          <div>
+	          	<a href="javascript:void(0);">
+	          	<img src="<?php echo esc_url( home_url( '/' ) ); ?>wp-content/themes/AtFirstSightFilms/images/clients/akanyc-dark@2x.png" alt="AKA New York City"></a><p>AKA New York City</p>
 	          </div>
         </div>
         </div>
@@ -139,7 +160,7 @@ Template Name: AFS Home
 <div id="work" class="row demo-samples">
 
 	<div class="container"> 
-	      <h4 class="hello">Some of our work.</h4>
+	      <h4 class="hello">Featured Work.</h4>
 	          
 		<div class="span12 demo-video">
 			<div id="ourwork" class="carousel slide" data-interval="pause">
@@ -198,7 +219,7 @@ Template Name: AFS Home
 
 	<div class="container">       
      <div id="about" class="afsprofiles">	
-	   <h4 class="hello">Meet the team.</h4>
+	   <h4 class="hello">Meet The Team.</h4>
 	   <!-- Get to know the team behind AFS -->
 	   <div class="row demo-tiles">
         
@@ -213,8 +234,8 @@ Template Name: AFS Home
             <a href="https://twitter.com/atfirst_sight" class="twitter-follow-button" data-show-count="false" data-size="large">Follow @atfirst_sight</a>
 <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');</script>
 
-            <p><span>Filmmaker, Designer, Developer, Drummer</span>
-            Having a background in design, development and music having worked with companies like AOL, Target, and Pepsi. These strengths bleed over into the aesthetic world of film. Driven by his passion for technology, art and music, his innovation and creativity leave a distinct print on all his work.</p>
+            <p><span>Partner, DP, Editor, Colorist, Father, Drummer</span>
+            Having a background in design, web development and music, Stephen came to AFS with experience having worked with companies like AOL, Target, and Pepsi from an international agency. These strengths have bled over into the aesthetic world of film. Driven by his passion for technology, art and music, his innovation and creativity leave a distinct print on all his work.</p>
             <div class="fb-like" data-href="http://facebook.com/atfirstsightfilms" data-width="150" data-layout="button_count" data-show-faces="true" data-send="false" style="margin-right: 15px;"></div>
             <!-- Place this tag where you want the +1 button to render. -->
 			<div class="g-plusone" data-size="medium" data-href="http://www.atfirstsightfilms.com/"></div>
@@ -241,8 +262,8 @@ Template Name: AFS Home
             <a href="https://twitter.com/atfirst_sight" class="twitter-follow-button" data-show-count="false" data-size="large">Follow @atfirst_sight</a>
 <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');</script>
 
-            <p><span>Filmmaker, Pseudo Vegetarian, Sports Fanatic</span>
-            Born and raised in Winnipeg. He's had extensive experience in the world of filmmaking; travelled the world a few times over with even a full length feature under his belt. One major strength is in sound. While remaining artistic, Chris defies the odds holding a passion for both sports &amp; tech.</p>
+            <p><span>Partner, Director, Sound, Pseudo Vegetarian</span>
+            Born and raised in Winnipeg, Chris has had extensive experience in the world of filmmaking; travelled the world a few times over with several shorts and a full length feature under his belt. One major strength is with sound and sound mastering. While remaining artistic in his filmmaking approach, Chris defies all odds and breaks clichés by holding a passion for both sports &amp; tech.</p>
             <div class="fb-like" data-href="http://facebook.com/atfirstsightfilms" data-width="150" data-layout="button_count" data-show-faces="true" data-send="false" style="margin-right: 15px;"></div>
             <!-- Place this tag where you want the +1 button to render. -->
 			<div class="g-plusone" data-size="medium" data-href="http://www.atfirstsightfilms.com/"></div>
@@ -260,14 +281,14 @@ Template Name: AFS Home
       </div>
       
       <!-- What it's all about -->
-      <h4>We're focused on both the quality and overall experience of each and every production. Big or small, our process is the same.</h4>
+      <h4>We're focused on both quality &amp; the overall experience. Big or small, our process follows the same steps.</h4>
       	 <div class="iconbar iconbar-horizontal iconbar-warning clearfix">
             <ul>
-              <li><a href="javascript:void(0);" class="fui-mail"></a>Inquire</li>
-              <li><a href="javascript:void(0);" class="fui-search"></a>Discover</li>
-              <li><a href="javascript:void(0);" class="fui-calendar"></a>Plan</li>
+              <li><a href="javascript:void(0);" class="fui-mail"></a>Enquirey</li>
+              <li><a href="javascript:void(0);" class="fui-search"></a>Discovery</li>
+              <li><a href="javascript:void(0);" class="fui-calendar"></a>Logistics</li>
               <li><a href="javascript:void(0);" class="fui-video"></a>Production</li>
-              <li><a href="javascript:void(0);" class="fui-windows"><!--<span class="iconbar-unread">1</span>--></a>Post</li>
+              <li><a href="javascript:void(0);" class="fui-windows"><!--<span class="iconbar-unread">1</span>--></a>Finishing</li>
             </ul>
           </div>
      </div><!-- end about -->
@@ -292,55 +313,58 @@ Template Name: AFS Home
 		                  <li data-target="#processCarousel" data-slide-to="8" class="">9</li>
 		                  <li data-target="#processCarousel" data-slide-to="9" class="">10</li>
 		                  <li data-target="#processCarousel" data-slide-to="10" class="">11</li>
+		                  <li data-target="#processCarousel" data-slide-to="11" class="">12</li>
+		                  <li data-target="#processCarousel" data-slide-to="12" class="">13</li>
+		                  <li data-target="#processCarousel" data-slide-to="13" class="">14</li>
 		                </ol>
 		          </div> 
 				  <!-- Carousel items -->
 				  <div class="carousel-inner random">
-				    <div class="item"><img src="<?php echo esc_url( home_url( '/' ) ); ?>wp-content/themes/AtFirstSightFilms/images/process-img01.jpg" alt="Stephen Gray Storyboarding For A Film"></div>
-				    <div class="item"><img src="<?php echo esc_url( home_url( '/' ) ); ?>wp-content/themes/AtFirstSightFilms/images/process-img02.jpg" alt="Mark Hiebert Planning For A Film"></div>
-				    <div class="item"><img src="<?php echo esc_url( home_url( '/' ) ); ?>wp-content/themes/AtFirstSightFilms/images/process-img03.jpg" alt="Chris Radtke Discussing With A Client"></div>
-				    <div class="item"><img src="<?php echo esc_url( home_url( '/' ) ); ?>wp-content/themes/AtFirstSightFilms/images/process-img04.jpg" alt="Chris Radtke on set of Moore Photography Brand Story"></div>
-				    <div class="item"><img src="<?php echo esc_url( home_url( '/' ) ); ?>wp-content/themes/AtFirstSightFilms/images/process-img05.jpg" alt="Stephen Gray beind the scenes"></div>
-				    <div class="item"><img src="<?php echo esc_url( home_url( '/' ) ); ?>wp-content/themes/AtFirstSightFilms/images/process-img06.jpg" alt="Chris Radtke framing the crane during a commercial shoot"></div>
-				    <div class="item"><img src="<?php echo esc_url( home_url( '/' ) ); ?>wp-content/themes/AtFirstSightFilms/images/process-img07.jpg" alt="Stephen Gray, Red Digital Cinema"></div>
-				    <div class="item"><img src="<?php echo esc_url( home_url( '/' ) ); ?>wp-content/themes/AtFirstSightFilms/images/process-img08.jpg" alt="Mark Hiebert, Steadicam Operator"></div>
-				    <div class="item"><img src="<?php echo esc_url( home_url( '/' ) ); ?>wp-content/themes/AtFirstSightFilms/images/process-img09.jpg" alt="Mark Hiebert conducting interviews with a client"></div>
-				    <div class="item"><img src="<?php echo esc_url( home_url( '/' ) ); ?>wp-content/themes/AtFirstSightFilms/images/process-img10.jpg" alt="Stephen Gray"></div>
-				    <div class="item"><img src="<?php echo esc_url( home_url( '/' ) ); ?>wp-content/themes/AtFirstSightFilms/images/process-img11.jpg" alt="Mark Hiebert behind the scenes"></div>
+				    <div class="item"><img src="<?php echo esc_url( home_url( '/' ) ); ?>wp-content/themes/AtFirstSightFilms/images/process-img01.jpg" alt="At First Sight Films Behind The Scenes"></div>
+				    <div class="item"><img src="<?php echo esc_url( home_url( '/' ) ); ?>wp-content/themes/AtFirstSightFilms/images/process-img02.jpg" alt="At First Sight Films Behind The Scenes"></div>
+				    <div class="item"><img src="<?php echo esc_url( home_url( '/' ) ); ?>wp-content/themes/AtFirstSightFilms/images/process-img03.jpg" alt="At First Sight Films Behind The Scenes"></div>
+				    <div class="item"><img src="<?php echo esc_url( home_url( '/' ) ); ?>wp-content/themes/AtFirstSightFilms/images/process-img04.jpg" alt="At First Sight Films Behind The Scenes"></div>
+				    <div class="item"><img src="<?php echo esc_url( home_url( '/' ) ); ?>wp-content/themes/AtFirstSightFilms/images/process-img05.jpg" alt="At First Sight Films Behind The Scenes"></div>
+				    <div class="item"><img src="<?php echo esc_url( home_url( '/' ) ); ?>wp-content/themes/AtFirstSightFilms/images/process-img06.jpg" alt="At First Sight Films Behind The Scenes"></div>
+				    <div class="item"><img src="<?php echo esc_url( home_url( '/' ) ); ?>wp-content/themes/AtFirstSightFilms/images/process-img07.jpg" alt="At First Sight Films Behind The Scenes"></div>
+				    <div class="item"><img src="<?php echo esc_url( home_url( '/' ) ); ?>wp-content/themes/AtFirstSightFilms/images/process-img08.jpg" alt="At First Sight Films Behind The Scenes"></div>
+				    <div class="item"><img src="<?php echo esc_url( home_url( '/' ) ); ?>wp-content/themes/AtFirstSightFilms/images/process-img09.jpg" alt="At First Sight Films Behind The Scenes"></div>
+				    <div class="item"><img src="<?php echo esc_url( home_url( '/' ) ); ?>wp-content/themes/AtFirstSightFilms/images/process-img10.jpg" alt="At First Sight Films Behind The Scenes"></div>
+				    <div class="item"><img src="<?php echo esc_url( home_url( '/' ) ); ?>wp-content/themes/AtFirstSightFilms/images/process-img11.jpg" alt="At First Sight Films Behind The Scenes"></div>
+				    <div class="item"><img src="<?php echo esc_url( home_url( '/' ) ); ?>wp-content/themes/AtFirstSightFilms/images/process-img12.jpg" alt="At First Sight Films Behind The Scenes"></div>
+				    <div class="item"><img src="<?php echo esc_url( home_url( '/' ) ); ?>wp-content/themes/AtFirstSightFilms/images/process-img14.jpg" alt="At First Sight Films Behind The Scenes"></div>
 				  </div>
 				</div>
-              	
-              	<!-- VINE POST
-              	<iframe class="vine-embed" src="https://vine.co/v/bJitdd6zhjP/embed/simple" width="320" height="320" frameborder="0"></iframe><script async src="//platform.vine.co/static/scripts/embed.js" charset="utf-8"></script>
-              	-->
+
               </div>
               
               <div class="span8">
               	
               	<div class="row-fluid show-grid">
               		<div class="span6">
-              		<h2>So what's involved?</h2>
+              		<h2>So, Why Work With AFS?</h2>
               		</div>
               		<div class="span6 line"></div>
               	</div>
               
-              <p>Learning, questioning, conceptualizing and finding the story we're both after.</p>
-
-               <ul class="random">
-              	<li><p class="btnsqare btn-1 btn-1b">Goals</p></li>
-              	<li><p class="btnsqare btn-1 btn-1b">Voice</p></li>
-              	<li><p class="btnsqare btn-1 btn-1b">Tone</p></li>
-              	<li><p class="btnsqare btn-1 btn-1b">Vision</p></li>
-              	<li><p class="btnsqare btn-1 btn-1b">Direction</p></li>
-              	<li><p class="btnsqare btn-1 btn-1b">Schedule</p></li>
-              	<li><p class="btnsqare btn-1 btn-1b">Concept</p></li>
-              	<li><p class="btnsqare btn-1 btn-1b">Resources</p></li>
-              </ul>              
               <div class="descript">
-              <h3><i>Let's dig in. Often we're looking for that human element to draw from for an emotional, engaging story that speaks to an audience. We create successful digital products with extraordinary attention to detail for both agencies and commercial clients.</i></h3>
+              <h3><i>We're a personable, meticulously organized, and leanly operated team from start to finish. What sets us apart is our unique story-telling ability, which is backed by years of experience in both commercial film production &amp; wedding events. Our goal is to tell a captivating story. We want you to feel a connection with a film on a basic and emotional level. During both production &amp; post production, we use some of the best tools available which helps further shape a truly cinematic experience.</i></h3>
               </div>
 
-              <h2>Whether it's a person, product or brand, it's a story we're excited to help create.</h2>
+               <ul class="random">
+              	<li><p class="btnsqare btn-1 btn-1b">RED Digital Cinema</p></li>
+              	<li><p class="btnsqare btn-1 btn-1b">4K</p></li>
+              	<li><p class="btnsqare btn-1 btn-1b">1080P</p></li>
+              	<li><p class="btnsqare btn-1 btn-1b">Digital Delivery</p></li>
+              	<li><p class="btnsqare btn-1 btn-1b">Freefly Movi</p></li>
+              	<li><p class="btnsqare btn-1 btn-1b">Canon L Series</p></li>
+              	<li><p class="btnsqare btn-1 btn-1b">Manfrotto</p></li>
+              	<li><p class="btnsqare btn-1 btn-1b">Lowel</p></li>
+              	<li><p class="btnsqare btn-1 btn-1b">Apple</p></li>
+              	<li><p class="btnsqare btn-1 btn-1b">LaCie</p></li>
+              	<li><p class="btnsqare btn-1 btn-1b">Sony</p></li>
+              </ul>              
+
               </div>
               
             </div><!-- end row-fluid -->
