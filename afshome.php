@@ -51,9 +51,9 @@ Template Name: AFS Home
 
 
 <meta property="og:title" content="At First Sight Films" />
-<meta property="og:site_name" content="<?php wp_title('|', true, 'right'); ?>" />
-<meta property="og:url" content="<?php echo get_permalink( $post->ID ); ?>" />
-<meta property="og:description" content="<?php the_description(); ?>" />
+<meta property="og:site_name" content="A Winnipeg, Canada Based Storytelling Film Production Company" />
+<meta property="og:url" content="http://atfirstsightfilms.com/" />
+<meta property="og:description" content="We're Canadian-based creative & experienced filmmakers who enjoy the process of learning and interacting with clients to create a compelling, cinematic story." />
 <meta property="og:image" content="<?php echo esc_url( home_url( '/' ) ); ?>wp-content/themes/AtFirstSightFilms/images/afs-feature.jpg" />
 
     
